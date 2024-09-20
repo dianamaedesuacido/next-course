@@ -35,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="winter">
-      <GoogleAnalyticsScript />
+      {/* <GoogleAnalyticsScript /> */}
       <body className={roboto.className}>
         <AuthProvider>
           <NavBar />
