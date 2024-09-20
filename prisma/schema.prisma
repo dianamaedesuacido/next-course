@@ -64,10 +64,3 @@ model VerificationToken {
   @@unique([identifier, token])
   @@map("verificationtokens")
 }
-
-model products {
-  id    String   @id @default(cuid())
-  name  String   @unique
-  price Int
-  date  DateTime
-}
